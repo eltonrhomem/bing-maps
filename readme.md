@@ -8,7 +8,7 @@
 npm install
 ```
 
-- Para excutar a aplicação
+- Para executar a aplicação
 
 ```bash
 node index.js
