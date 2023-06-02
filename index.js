@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-const apiKey = 'AkoUyk_rkS7vfSNFXtRzY94iIS37S71WC_bT51SMNrM-G8oO0k3Y4V6pYHNQSs2u';
+const apiKey = 'AkoUyk_rkS7vfSNFXtRzY94iIS37S71WC_bT51SMNrM-G8oO0k3Y4V6pYHNQSs2u'; // isso ficará no .env
 const address = 'RUA MANOEL IZIDIO  IPATINGA MG';
 
 fetch(`http://dev.virtualearth.net/REST/v1/Locations?query=${address}&key=${apiKey}`)
