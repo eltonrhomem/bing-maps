@@ -1,5 +1,5 @@
 const apiKey = 'AkoUyk_rkS7vfSNFXtRzY94iIS37S71WC_bT51SMNrM-G8oO0k3Y4V6pYHNQSs2u';
-const address = 'RUA LUIZ CARLOS PENA 205 IPATINGA MG';
+const address = 'RUA MANOEL IZIDIO  IPATINGA MG';
 
 fetch(`http://dev.virtualearth.net/REST/v1/Locations?query=${address}&key=${apiKey}`)
   .then(response => response.json())
